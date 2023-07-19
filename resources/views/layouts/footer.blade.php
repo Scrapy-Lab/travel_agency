@@ -8,15 +8,15 @@
                             <div class="single-footer-caption mb-30">
 
                                 <div class="footer-logo mb-25">
-                                    
 
-                                        <a href="{{route('home')}}"><img  src="{{asset('img/logo/mainLogo_1.png')}}" width="100px" alt=""></a>
-                                        <a href="{{route('home')}}"><img src="{{asset('img/logo/logo2.png')}}" width="200px" alt=""></a>
-                                       
-                                 
+
+                                        <a href="{{route('home')}}"><img  src="{{asset('img/logo/logo.jpeg')}}" width="100px" alt=""></a>
+                                        {{-- <a href="{{route('home')}}"><img src="{{asset('img/logo/logo2.png')}}" width="200px" alt=""></a> --}}
+
+
                                 </div>
 
-                                
+
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
                                         <p>We are a BODHGAYA-BASED Travel company. your ONE-STOP Shop for all

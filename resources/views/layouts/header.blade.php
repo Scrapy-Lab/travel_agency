@@ -60,7 +60,7 @@
                             <a href="{{route('home')}}">
 
 
-                                <img class="mainLogo" src="{{asset('img/logo/mainLogo_1.png')}}" width="50px" alt="">
+                                <img class="mainLogo" src="{{asset('img/logo/logo.jpeg')}}" width="50px" alt="">
 
                             </a>
 
@@ -69,7 +69,7 @@
 
 
                             <a href="{{route('home')}}">
-                                <h1 class="logoName">Hotel in <span style="color:#fff">Bo</span>dhgaya</h1>
+                                {{-- <h1 class="logoName">Hotel in <span style="color:#fff">Bo</span>dhgaya</h1> --}}
                                 {{-- <img class="logoName" src="{{asset('img/logo/logo2.png')}}" width="200px" alt=""> --}}
                             </a>
 
@@ -80,7 +80,6 @@
                                 <nav>
                                     <ul id="navigation" class="navBarUL">
                                         <li class="{{ (\Request::route()->getName() == 'home') ? 'active' : ''}}"><a href="{{route('home')}}">Home</a></li>
-                                        <li  class="{{(\Request::route()->getName() == 'hotels') ? 'active' : ''}}"><a href="{{route('hotels')}}">Hotels</a></li>
                                         <li  class="{{(\Request::route()->getName() == 'tour') ? 'active' : ''}}"><a href="{{route('tour')}}">Tour Package</a></li>
                                         <li  class="{{(\Request::route()->getName() == 'taxi') ? 'active' : ''}}"><a href="{{route('taxi')}}">Taxi</a></li>
                                         <li  class="{{(\Request::route()->getName() == 'about') ? 'active' : ''}}"><a href="{{route('about')}}">About</a></li>
@@ -101,12 +100,12 @@
                                 </nav>
                             </div>
 
-                            <div class="header-right-btn f-right d-flex align-items-center">
+                            {{-- <div class="header-right-btn f-right d-flex align-items-center">
                                 <a href="{{ auth()->user() ? "#" :  route('loginView') }} " class="header-btn2 d-none d-lg-block">
 
                                     {{ auth()->user() ? "Welcome: " : ""}}
                                     <span class="loginName" > {{ auth()->user() ? auth()->user()->name : "Login"}} </span></a>
-                            </div>
+                            </div> --}}
                         </div>
 
                         <div class="col-12">

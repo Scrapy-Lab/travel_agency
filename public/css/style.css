@@ -4,7 +4,8 @@ body {
     font-family: "Jost", sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 16px
+    font-size: 16px;
+    overflow-x: hidden !important;
 }
 
 /* h1,
@@ -928,9 +929,9 @@ hr {
 }
 
 .header-area .header-top {
-    background: #01796f;
+    /* background: #01796f; */
     /* background: #2e0000; */
-    padding: 13px 38px
+    /* padding: 13px 38px */
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -1041,8 +1042,8 @@ hr {
 
 
 .header-area .header-bottom {
-    height: 136px;
-    background-color: #01796f;
+    /* height: 136px; */
+    /* background-color: #01796f; */
     padding: 0px 38px;
     padding-right: 0;
     /* border-bottom: 1px solid rgba(255, 255, 255, 0.3) */
