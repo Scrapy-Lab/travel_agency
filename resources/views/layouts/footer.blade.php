@@ -233,7 +233,7 @@
 
                         <div class="footer-text">
 
-                            <p>Copy@ 2023 <span style="color: #F7921E;">GoWilds</span>, All Right Reserved</p>
+                            <p>Copy@ 2023 <span style="color: #F7921E;"></span>, All Right Reserved</p>
 
                         </div>
 
