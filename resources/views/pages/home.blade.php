@@ -1161,7 +1161,7 @@
 
 
     <!--====== Start Fact Section ======-->
-
+{{--
     <section class="fact-section pt-100">
 
         <div class="container">
@@ -1252,7 +1252,7 @@
 
         </div>
 
-    </section><!--====== End Fact Section ======-->
+    </section><!--====== End Fact Section ======--> --}}
 
     <!--====== Start Testimonial Section ======-->
 
