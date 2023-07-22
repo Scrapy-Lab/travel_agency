@@ -16,7 +16,7 @@
 
     <!--====== Title ======-->
 
-    <title>Gowilds - Tours and Travel HTML Template</title>
+    <title>Tours and Travel HTML Template</title>
 
     <!--====== Favicon Icon ======-->
 
