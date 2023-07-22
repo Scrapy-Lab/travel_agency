@@ -133,7 +133,7 @@
 
                                     exercise except obsome</p>
 
-                                <a href="#" class="footer-logo"><img src="assets/images/logo/logo-white.png"
+                                <a href="#" class="footer-logo"><img src="{{asset('img/logo/logo.jpg')}}"
                                         alt="Site Logo"></a>
 
                             </div>
