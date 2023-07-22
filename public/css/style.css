@@ -1646,7 +1646,8 @@ hr {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #01796f;
+    background-color: #000000;
+    height: 130px;
 }
 
 .hero-overly::before {

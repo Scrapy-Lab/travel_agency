@@ -473,7 +473,7 @@ input#select3 {
         padding: 17px 105px !important;
     }
     .navBarDetailPage{
-        background-color: #003580;
+        background-color: #01978b;
         height: 135px;
         display: block;
     }
@@ -493,7 +493,7 @@ input#select3 {
     }
 
     li.active {
-        background-color:  #003580 !important;
+        background-color:  #01978b !important;
 
     }
 
@@ -597,7 +597,7 @@ img.d-block.w-100.min_maxHeight {
     }
 
     .navBarDetailPage{
-        background-color: #003580;
+        background-color: #01978b;
         height: 135px;
         display: block;
     }
@@ -617,7 +617,7 @@ img.d-block.w-100.min_maxHeight {
     }
 
     li.active {
-        background-color:  #003580 !important;
+        background-color:  #01978b !important;
 
     }
 
@@ -1310,28 +1310,28 @@ hr {
 
 .btn.btn-primary {
     background-color: #fff;
-    border-color: #003580;
+    border-color: #01978b;
     width: 100%;
     font-size: 14px;
     padding: 20px 0;
 }
 .carousel-control-prev-icon:hover {
-    /* background-color: #003580;
-    border-color: #003580; */
+    /* background-color: #01978b;
+    border-color: #01978b; */
     width: 100%;
     font-size: 14px;
     padding: 20px 0;
 }
 .carousel-control-next-icon:hover {
-    /* background-color: #003580;
-    border-color: #003580; */
+    /* background-color: #01978b;
+    border-color: #01978b; */
     width: 100%;
     font-size: 14px;
     padding: 20px 0;
 }
 
 #btn_loginpop_submit {
-    background-color: #003580;
+    background-color: #01978b;
     color: white;
     height: 40px;
 }
@@ -1415,7 +1415,7 @@ input#password_confirmation {
     position: absolute;
     bottom: -4px;
     right: 0;
-    background-color: #003580;
+    background-color: #01978b;
     color: #fff !important;
     text-decoration: none;
     padding: 2px 6px;
@@ -1535,9 +1535,11 @@ h2.bedroom_name {
 }
 
 li.active {
-    background-color: black;
+    background-color: #01978b;
     line-height: 0rem;
     border-radius: 10px;
+    width: 100px;
+    text-align: center;
 }
 
 
@@ -1550,7 +1552,7 @@ li.active {
 
 .modal-header{
 
-    background-color: #003580;
+    background-color: #01978b;
     color: #fff;
     font-weight: 500;
 }
@@ -1568,7 +1570,7 @@ li.active {
 }
 
 .card-header {
-    background-color: #003580;
+    background-color: #01978b;
     color: white;
 }
 

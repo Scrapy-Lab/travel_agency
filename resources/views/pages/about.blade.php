@@ -9,7 +9,7 @@
                         <div class="col-xl-7 col-lg-11">
 
                             <div class="hero-caption hero-caption3" style="padding-top: 0px !important;">
-                                <h1>About Us</h1>
+                                {{-- <>About Us</`h1> --}}
                             </div>
                         </div>
                     </div>
@@ -86,21 +86,21 @@
 
             <p>IF YOU’RE LOOKING FOR A TRAVEL AGENT OR TRAVEL SERVICES IN BODHGAYA, LOOK NO FURTHER HOTEL IN BODHGAYA IS ALWAYS AVAILABLE FOR YOU. YOU WON’T BE DISAPPOINTED!</p>
 
-            
+
 
             <p><strong>CONTACT US:</strong>
                 READY TO PLAN YOUR NEXT ADVENTURE? CONTACT US TODAY TO GET STARTED. OUR TRAVEL EXPERTS ARE READY TO HELP YOU PLAN AND BOOK YOUR TRIP WITH EASE.
-                
+
                 <ul>
                     <li><strong> MOBILE NO : </strong><a href="tel:9971840388" style="font-weight:bold"> +91 9971840388</a> OR <a href="tel:9546355003" style="font-weight:bold"> +91 9546355003</a></li>
                     <li> <strong>GMAIL I’D : </strong>  <a href="mailto:hotelofbodhgaya@gmail.com" style="font-weight:bold">hotelofbodhgaya@gmail.com</a></li>
                 </ul>
-                
-                
+
+
     </p>
 
-            
-            
+
+
 
         </div>
 

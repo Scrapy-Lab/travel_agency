@@ -13,7 +13,7 @@
                         <div class="col-xl-7 col-lg-11">
 
                             <div class="hero-caption hero-caption2 pt-10" style="padding-top: 0px !important;">
-                                <h1>Our Rooms</h1>
+                                {{-- <h1>Our Rooms</h1> --}}
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-xl-8 col-lg-8">
-    
+
                                 <div class="section-tittle text-center mb-50">
                                     <h2>We Offer to Our Guest</h2>
                                 </div>
@@ -124,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-              
+
 
 
                 <section class="client-say">
@@ -137,7 +137,7 @@
                                             <div class="client-caption">
                                                 <h3>{{ $testimonial->review_title }}</h3>
                                                 <p>{{ $testimonial->review_desc }}</p>
-    
+
                                                 <div class="testimonial-founder d-flex align-items-center mt-30">
                                                     <div class="testimonialimg">
                                                         <img src="{{ asset('storage/' . $testimonial->image) }}"
@@ -148,7 +148,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-    
+
                                         </div>
                                     @empty
                                         <div class="col-lg-5 col-md-6 col-sm-6">
@@ -157,7 +157,7 @@
                                                 <p>"Leather detail shoulder contrastic colour
                                                     contour stunning silhouette working peplum.
                                                     Statement buttons cover-up tweaks patch.</p>
-    
+
                                                 <div class="testimonial-founder d-flex align-items-center mt-30">
                                                     <div class="testimonialimg">
                                                         <img src="{{ asset('img/testiImg.png') }}" class="img-fluid"
@@ -175,7 +175,7 @@
                                                 <p>"Leather detail shoulder contrastic colour
                                                     contour stunning silhouette working peplum.
                                                     Statement buttons cover-up tweaks patch.</p>
-    
+
                                                 <div class="testimonial-founder d-flex align-items-center mt-30">
                                                     <div class="testimonialimg">
                                                         <img src="{{ asset('img/testiImg.png') }}" class="img-fluid"
@@ -195,7 +195,7 @@
                                             <p>"Leather detail shoulder contrastic colour
                                                 contour stunning silhouette working peplum.
                                                 Statement buttons cover-up tweaks patch.</p>
-    
+
                                             <div class="testimonial-founder d-flex align-items-center mt-30">
                                                 <div class="testimonialimg">
                                                     <img src="{{ asset('img/testiImg.png') }}" class="img-fluid"
@@ -213,7 +213,7 @@
                                             <p>"Leather detail shoulder contrastic colour
                                                 contour stunning silhouette working peplum.
                                                 Statement buttons cover-up tweaks patch.</p>
-    
+
                                             <div class="testimonial-founder d-flex align-items-center mt-30">
                                                 <div class="testimonialimg">
                                                     <img src="{{ asset('img/testiImg.png') }}" class="img-fluid"
@@ -231,7 +231,7 @@
                                             <p>"Leather detail shoulder contrastic colour
                                                 contour stunning silhouette working peplum.
                                                 Statement buttons cover-up tweaks patch.</p>
-    
+
                                             <div class="testimonial-founder d-flex align-items-center mt-30">
                                                 <div class="testimonialimg">
                                                     <img src="{{ asset('img/testiImg.png') }}" class="img-fluid"
@@ -244,8 +244,8 @@
                                         </div>
                                     </div>
                                 @endif
-    
-    
+
+
                             </div>
                         </div>
                     </div>

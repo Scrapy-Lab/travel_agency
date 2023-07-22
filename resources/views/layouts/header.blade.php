@@ -1,136 +1,111 @@
-{{-- <div id="preloader-active">
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="preloader-inner position-relative">
-            <div class="preloader-circle"></div>
-            <div class="preloader-img pere-text">
-                <img src="{{ asset('img/icon/loder.png') }}" alt="loder">
-            </div>
-        </div>
-    </div>
-</div> --}}
-{{-- {{dd(\Request::route()->getName())}} --}}
-<header>
-    <div class="header-area header-transparent">
-        <div class="main-header ">
-      {{-- <div class="header-top">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="d-flex justify-content-between flex-wrap align-items-center">
-                                <div class="header-info-left">
-                                    <ul>
-                                        <li><a href="tel:9971840388" style="color:white">Call Us:   +91 9971840388</a></li>
-                                        <li>
+    <!--====== Header Area ======-->
 
-                                            <a href="mailto:enquiry@hotel.com" style="color:white; font-size: 12px;">hotelofbodhgaya@gmail.com</a>
-                                             <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                                data-cfemail="a2cbccc4cde2d0cdcec3da8cc1cdcf">[email&#160;protected]</a>
-                                      </li>
-                                    </ul>
+    <header class="header-area header-one transparent-header">
+
+        <!--====== Header Navigation ======-->
+
+        <div class="header-navigation navigation-white">
+
+            <div class="nav-overlay"></div>
+
+            <div class="container-fluid">
+
+                <div class="primary-menu">
+
+                    <!--====== Site Branding ======-->
+
+                    <div class="site-branding">
+
+                        <a href="index.html" class="brand-logo"><img class="brandLogo" src="{{asset('img/logo/logo.jpg')}}"
+                                alt="Site Logo"></a>
+
+                    </div>
+
+                    <!--====== Nav Menu ======-->
+
+                    <div class="nav-menu">
+
+                        <!--====== Site Branding ======-->
+
+                        <div class="mobile-logo mb-30 d-block d-xl-none">
+
+                            <a href="index.html" class="brand-logo"><img src="{{asset('img/logo/logo.jpg')}}"
+                                    alt="Site Logo"></a>
+
+                        </div>
+
+                        <!--=== Nav Search ===-->
+
+                        <div class="nav-search mb-30 d-block d-xl-none ">
+
+                            <form>
+
+                                <div class="form_group">
+
+                                    <input type="email" class="form_control" placeholder="Search Here" name="email"
+                                        required>
+
+                                    <button class="search-btn"><i class="fas fa-search"></i></button>
+
                                 </div>
-                                <div class="header-info-right d-none d-sm-block">
-                                    <ul class="header-social">
-                                        <li><img src="{{asset('storage/inr_logo.webp')}}" style="max-width:25px;" class="img-fluid"></li>
-                                        <li><a href="{{route('contact')}}"><button class="btn2">Contact Us</button> </a></li>
 
-                                        @if (!auth()->user())
-                                        <li><a href="{{route('registerView')}}"><button class="btn">Register</button> </a></li>
-                                        @else
+                            </form>
 
-                                        <li><a href="{{route('logout')}}"><button class="btn">Logout</button> </a></li>
-
-                                        @endif
-                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a target="_blank" href="https://wa.me/+919971840388"><i class="fab fa-whatsapp"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
+
+                        <!--====== main Menu ======-->
+
+                        <nav class="main-menu mb-2 mt-2">
+
+                            <ul>
+
+                                <li class="{{ (\Request::route()->getName() == 'home') ? 'active' : ''}}"><a href="{{route('home')}}">Home</a></li>
+                                <li  class="{{(\Request::route()->getName() == 'tour') ? 'active' : ''}}"><a href="{{route('tour')}}">Tour</a></li>
+                                <li  class="{{(\Request::route()->getName() == 'taxi') ? 'active' : ''}}"><a href="{{route('taxi')}}">Taxi</a></li>
+                                <li  class="{{(\Request::route()->getName() == 'about') ? 'active' : ''}}"><a href="{{route('about')}}">About</a></li>
+
+                            </ul>
+
+                        </nav>
+
+                        <!--====== Menu Button ======-->
+
+                        <div class="menu-button mt-40 d-xl-none">
+
+                            <a href="contact.html" class="main-btn secondary-btn">Book Now<i
+                                    class="fas fa-paper-plane"></i></a>
+
+                        </div>
+
                     </div>
-                </div>
-            </div> --}}
-            {{-- header-sticky --}}
-            <div class="header-bottom ">
-                <div class="container-fluid">
-                    <div class="d-flex align-items-center justify-content-between flex-wrap">
 
-                        <div class="logo">
+                    <!--====== Nav Right Item ======-->
 
-                            <a href="{{route('home')}}">
+                    <div class="nav-right-item">
 
+                        <div class="menu-button d-xl-block d-none">
 
-                                <img class="mainLogo" src="{{asset('img/logo/logo.jpeg')}}" width="50px" alt="">
-
-                            </a>
+                            <a href="contact.html" class="main-btn primary-btn">Book Now<i
+                                    class="fas fa-paper-plane"></i></a>
 
                         </div>
-                        <div class="logo">
 
+                        <div class="navbar-toggler">
 
-                            <a href="{{route('home')}}">
-                                {{-- <h1 class="logoName">Hotel in <span style="color:#fff">Bo</span>dhgaya</h1> --}}
-                                {{-- <img class="logoName" src="{{asset('img/logo/logo2.png')}}" width="200px" alt=""> --}}
-                            </a>
+                            <span></span>
+
+                            <span></span>
+
+                            <span></span>
 
                         </div>
-                        <div class="menu-wrapper d-flex align-items-center">
 
-                            <div class="main-menu d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation" class="navBarUL">
-                                        <li class="{{ (\Request::route()->getName() == 'home') ? 'active' : ''}}"><a href="{{route('home')}}">Home</a></li>
-                                        <li  class="{{(\Request::route()->getName() == 'tour') ? 'active' : ''}}"><a href="{{route('tour')}}">Tour Package</a></li>
-                                        <li  class="{{(\Request::route()->getName() == 'taxi') ? 'active' : ''}}"><a href="{{route('taxi')}}">Taxi</a></li>
-                                        <li  class="{{(\Request::route()->getName() == 'about') ? 'active' : ''}}"><a href="{{route('about')}}">About</a></li>
-                                        @if (auth()->user())
-                                        <li><a href="#">My Account</a>
-                                            <ul class="submenu">
-                                                <li><a href="{{route('myBooking')}}">My Booking</a></li>
-                                                <li><a href="{{route('logout')}}">Logout</a></li>
-                                            </ul>
-                                        </li>
-                                        @endif
-                                        <li  class="{{(\Request::route()->getName()== 'contact' )? 'active' :''}}"><a href="{{route('contact')}}">Contact Us</a></li>
-                                      {{-- @if (auth()->user())
-                                      <li><a href="{{route('logout')}}">Logout</a></li>
-
-                                      @endif --}}
-                                    </ul>
-                                </nav>
-                            </div>
-
-                            {{-- <div class="header-right-btn f-right d-flex align-items-center">
-                                <a href="{{ auth()->user() ? "#" :  route('loginView') }} " class="header-btn2 d-none d-lg-block">
-
-                                    {{ auth()->user() ? "Welcome: " : ""}}
-                                    <span class="loginName" > {{ auth()->user() ? auth()->user()->name : "Login"}} </span></a>
-                            </div> --}}
-                        </div>
-
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
                     </div>
+
                 </div>
+
             </div>
+
         </div>
-    </div>
-</header>
 
-<div class="header-top navBarDetailPage">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="d-flex justify-content-between flex-wrap align-items-center">
-                    <div class="header-info-left">
-
-                    </div>
-                    <div class="header-info-right d-none d-sm-block">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    </header><!--====== End Area ======-->

@@ -14,7 +14,7 @@
                     <div class="col-xl-7 col-lg-11">
 
                         <div class="hero-caption hero-caption2 pt-10" style="padding-top: 0px !important;">
-                            <h1>Tour & Packages</h1>
+                            {{-- <h1>Tour & Packages</h1> --}}
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
             {{-- <div class="col-xl-2 col-lg-1 d-none d-md-block"></div> --}}
             <div class="col-xl-12 col-lg-12 col-md-12">
                 <div class="container">
-                    @livewire('tour-package')   
+                    @livewire('tour-package')
                 </div>
 
 
@@ -166,7 +166,7 @@
                     </div>
                 </div>
             </section>
-         
+
 </main>
 
 

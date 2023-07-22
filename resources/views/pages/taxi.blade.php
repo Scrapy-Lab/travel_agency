@@ -9,7 +9,7 @@
                         <div class="col-xl-7 col-lg-11">
 
                             <div class="hero-caption hero-caption3" style="padding-top: 0px !important;">
-                                <h1>Car Rental</h1>
+                                {{-- <h1>Car Rental</h1> --}}
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                     <li>8. Bodh Gaya - Rajgir Nalanda – Drop Only</li>
                     <li>9. Bodh Gaya - Gaya Airport - Drop Only</li>
                 </ul>
-     
+
                 <br>
 
                 <h4>- Taxi in Bodhgaya</h4>
@@ -277,7 +277,7 @@
                     </table>
                 </span> <br>
 
-                
+
 
                 <h4>FAQ </h4>
                 {{-- on Bodhgaya book taxi --}}
