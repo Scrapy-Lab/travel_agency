@@ -49,10 +49,10 @@ class User extends Authenticatable implements FilamentUser
     ];
 
 
-    // public function canAccessFilament(): bool
-    // {
-    //     return str_ends_with($this->email, '@hotelinbodhgaya.com');
-    // }
+    public function canAccessFilament(): bool
+    {
+        return str_ends_with($this->email, '@hotel.com');
+    }
 
     public function UserBookings(){
         return $this->hasMany(TimexEvents::class);
