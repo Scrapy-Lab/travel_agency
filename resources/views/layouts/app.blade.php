@@ -67,13 +67,13 @@
 </head>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
 
 
 <!--====== Favicon Icon ======-->
 
-<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
+<link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/png">
 
 <!--====== Google Fonts ======-->
 
@@ -81,43 +81,43 @@
 
 <!--====== Flaticon css ======-->
 
-<link rel="stylesheet" href="assets/fonts/flaticon/flaticon_gowilds.css">
+<link rel="stylesheet" href="{{ asset('assets/fonts/flaticon/flaticon_gowilds.css') }}">
 
 <!--====== FontAwesome css ======-->
 
-<link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/css/all.min.css') }}">
 
 <!--====== Bootstrap css ======-->
 
-<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
 
 <!--====== magnific-popup css ======-->
 
-<link rel="stylesheet" href="assets/vendor/magnific-popup/dist/magnific-popup.css">
+<link rel="stylesheet" href="{{ asset('assets/vendor/magnific-popup/dist/magnific-popup.css') }}">
 
 <!--====== Slick-popup css ======-->
 
-<link rel="stylesheet" href="assets/vendor/slick/slick.css">
+<link rel="stylesheet" href="{{ asset('assets/vendor/slick/slick.css') }}">
 
 <!--====== Jquery UI css ======-->
 
-<link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.min.css">
+<link rel="stylesheet" href="{{ asset('assets/vendor/jquery-ui/jquery-ui.min.css') }}">
 
 <!--====== Nice Select css ======-->
 
-<link rel="stylesheet" href="assets/vendor/nice-select/css/nice-select.css">
+<link rel="stylesheet" href="{{ asset('assets/vendor/nice-select/css/nice-select.css') }}">
 
 <!--====== Animate css ======-->
 
-<link rel="stylesheet" href="assets/vendor/animate.css">
+<link rel="stylesheet" href="{{ asset('assets/vendor/animate.css') }}">
 
 <!--====== Default css ======-->
 
-<link rel="stylesheet" href="assets/css/default.css">
+<link rel="stylesheet" href="{{ asset('assets/css/default.css') }}">
 
 <!--====== Style css ======-->
 
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 <body>
     @livewireScripts
@@ -182,50 +182,50 @@
 
 
 
-      <!--====== Jquery js ======-->
+    <!--====== Jquery js ======-->
 
-      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-      <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
 
-      <!--====== Bootstrap js ======-->
+    <!--====== Bootstrap js ======-->
 
-      <script src="assets/js/popper.min.js"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
 
-      <!--====== Bootstrap js ======-->
+    <!--====== Bootstrap js ======-->
 
-      <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
 
-      <!--====== Slick js ======-->
+    <!--====== Slick js ======-->
 
-      <script src="assets/js/slick.min.js"></script>
+    <script src="{{ asset('assets/js/slick.min.js') }}"></script>
 
-      <!--====== Magnific js ======-->
+    <!--====== Magnific js ======-->
 
-      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
 
-      <!--====== Counterup js ======-->
+    <!--====== Counterup js ======-->
 
-      <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
 
-      <!--====== Waypoints js ======-->
+    <!--====== Waypoints js ======-->
 
-      <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="{{ asset('assets/js/jquery.waypoints.js') }}"></script>
 
-      <!--====== Nice-select js ======-->
+    <!--====== Nice-select js ======-->
 
-      <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
 
-      <!--====== jquery UI js ======-->
+    <!--====== jquery UI js ======-->
 
-      <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
 
-      <!--====== WOW js ======-->
+    <!--====== WOW js ======-->
 
-      <script src="assets/js/wow.min.js"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
 
-      <!--====== Main js ======-->
+    <!--====== Main js ======-->
 
-      <script src="assets/js/theme.js"></script>
+    <script src="{{ asset('assets/js/theme.js') }}"></script>
 </body>
 
 </html>
