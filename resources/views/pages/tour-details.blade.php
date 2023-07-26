@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <main>
-        <div class="slider-area hero-bg1   hero-overly">
+        <div class="slider-area hero-bg1   ">
             {{-- style="background-image: url({{ $banner ? asset('storage/' . $banner->banner) : asset('img/h1_hero.jpg') }});"> --}}
             <div class="single-slider  slider-height2 d-flex align-items-center" style="min-height: 0px !important;">
                 <div class="container">
@@ -134,13 +134,13 @@
                         </div>
                     </section>
                 </div>
-              
-              
+
+
                 <div class="col-md-5 col-lg-4">
 
                     <div class="row">
 
-                   
+
                     <div class="card text-dark bg-light mb-3 availability">
                         <div class="card-header">Included In Package </div>
                         <div class="card-body ">
@@ -162,12 +162,12 @@
                             </ul>
                         </div>
                     </div>
-              
+
                 </div>
-              
+
                     <div class="row">
 
-                   
+
                     <div class="card text-dark bg-light mb-3 availability">
                         <div class="card-header">Included In Package </div>
                         <div class="card-body ">
@@ -178,20 +178,20 @@
       <li><i class="fa fa-ticket" aria-hidden="true"></i> Flights Tickets <i class="fa fa-times-circle" aria-hidden="true" style="color: red"></i></li>
       <li><i class="fa fa-cutlery" aria-hidden="true"></i> Meals <i class="fa fa-times-circle" aria-hidden="true" style="color: red"></i></li>
       <li><i class="fa fa-credit-card" aria-hidden="true"></i> Visa  <i class="fa fa-times-circle" aria-hidden="true" style="color: red"></i></li>
-      
-                                  </ul> 
+
+                                  </ul>
                         </div>
                     </div>
-              
+
                 </div>
-              
+
                 </div>
 
 
-            
+
             </div>
 
-            
+
 
         </div>
 
