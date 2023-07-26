@@ -24,6 +24,7 @@
         "nuhel/filament-croppie": "^1.0",
         "owenvoke/blade-fontawesome": "^2.1",
         "ralphjsmit/livewire-urls": "^1.1",
+        "ryangjchandler/filament-navigation": "^0.5.0",
         "silber/page-cache": "^1.0",
         "wiebenieuwenhuis/filament-char-counter": "^1.0"
     },

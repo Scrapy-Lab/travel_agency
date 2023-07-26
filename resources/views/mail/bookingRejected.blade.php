@@ -21,7 +21,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     {{-- <title>{{ config('app.name', 'Laravel') }}</title> --}}
     @include('meta::manager', [
         'title'         => config('app.name', 'Laravel'),
@@ -173,12 +173,12 @@
                                                                         align="center">
 
                                                                         <img align="center" border="0"
-                                                                            src="https://uxdesigns.in/project/hotels/public/img/logo/mainLogo_1.png"
+                                                                            src="https://snehal.info/project/hotels/public/img/logo/mainLogo_1.png"
                                                                             alt="Logo" title="Logo"
                                                                             style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 150px;"
                                                                             width="200px" />
 
-                                                                            <h1 class="logoName" style="margin-top: -20px;">Hotels in <span style="color:#fff">Bo</span>dhgaya</h1>    
+                                                                            <h1 class="logoName" style="margin-top: -20px;">Hotels in <span style="color:#fff">Bo</span>dhgaya</h1>
 
                                                                     </td>
                                                                 </tr>
@@ -189,7 +189,7 @@
                                                 </tbody>
                                             </table>
 
-                                            
+
 
                                             <!--[if (!mso)&(!IE)]><!-->
                                         </div><!--<![endif]-->
@@ -233,7 +233,7 @@
                                                                         align="center">
 
                                                                         <img align="center" border="0"
-                                                                            src="https://uxdesigns.in/project/hotels/public/storage/picture/WgowHgxexfFjwnylmlspeoJBQS4C94-metabWFpbi5qcGc=-.jpg"
+                                                                            src="https://snehal.info/project/hotels/public/storage/picture/WgowHgxexfFjwnylmlspeoJBQS4C94-metabWFpbi5qcGc=-.jpg"
                                                                             alt="Hero Image" title="Hero Image"
                                                                             style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 600px;"
                                                                             width="600" />
@@ -306,7 +306,7 @@
                                                                 <p style="font-size: 14px; line-height: 100%;"><span
                                                                         style="font-family: Montserrat, sans-serif; font-size: 18px; line-height: 18px;"></span></p>
 
-                                                                     
+
                                                             </div>
 
                                                         </td>
@@ -412,12 +412,12 @@
                                                                         align="left">
 
                                                                         <img align="center" border="0"
-                                                                            src="https://uxdesigns.in/project/hotels/public/img/logo/mainLogo_1.png"
+                                                                            src="https://snehal.info/project/hotels/public/img/logo/mainLogo_1.png"
                                                                             alt="Logo" title="Logo"
                                                                             style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 150px;"
                                                                             width="200px" />
 
-                                                                          
+
 
                                                                     </td>
                                                                 </tr>
@@ -437,8 +437,8 @@
 
                                                             <div
                                                                 style="line-height: 150%; text-align: left; word-wrap: break-word;">
-                                                            
-                                                                <h1 class="logoName" style="margin-top: -20px; font-size: 14px; line-height: 150%;">Hotels in <span style="color:#fff">Bo</span>dhgaya</h1>    
+
+                                                                <h1 class="logoName" style="margin-top: -20px; font-size: 14px; line-height: 150%;">Hotels in <span style="color:#fff">Bo</span>dhgaya</h1>
                                                             </div>
 
 

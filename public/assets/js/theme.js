@@ -1,9 +1,9 @@
 /*-----------------------------------------------------------------------------------
-    
+
     Template Name: Gowilds - Tours and Travel HTML Template
     Template URI: site.com
     Description: Gowilds is a modern Adventure Tours and Travel HTML Template designed for all activities, sports, hiking, or outdoor adventures.
-    Author: WebTend 
+    Author: WebTend
     Author URI: https://webtend.net/
     Version: 1.0
 
@@ -26,7 +26,7 @@
     ## Price Ranger js
     ## Date Picker
     ## Calendar JS
-    
+
 -----------------------------------------------------------------------------------*/
 
 (function($) {
@@ -34,7 +34,7 @@
 
     //===== Main Menu
     function mainMenu() {
-        
+
         // Variables
         var var_window = $(window),
         navContainer = $('.header-navigation'),
@@ -106,19 +106,19 @@
 
 
     //===== Preloader
-    
+
     $(window).on('load', function(event) {
         $('.preloader').delay(500).fadeOut('500');
     })
-    
+
     //===== Sticky
 
     $(window).on('scroll', function(event) {
         var scroll = $(window).scrollTop();
         if (scroll < 100) {
-            $(".header-navigation").removeClass("sticky");
+            // $(".header-navigation").removeClass("sticky");
         } else {
-            $(".header-navigation").addClass("sticky");
+            // $(".header-navigation").addClass("sticky");
         }
     });
 
@@ -137,9 +137,9 @@
             scrollTop: 0,
         }, 1500);
     });
-    
+
     //===== Counter js
-    
+
     if ($('.count').length){
         $('.count').counterUp({
             delay: 100,
@@ -148,7 +148,7 @@
     }
 
     //===== Magnific-popup js
-    
+
     if ($('.video-popup').length){
         $('.video-popup').magnificPopup({
             type: 'iframe',
@@ -160,27 +160,27 @@
     if ($('.img-popup').length){
         $(".img-popup").magnificPopup({
             type: "image",
-             gallery: { 
-              enabled: true 
+             gallery: {
+              enabled: true
             }
         });
     }
-    
+
     //===== Nice select js
-    
+
     if ($('select').length){
         $('select').niceSelect();
     }
-    
+
     //===== Slick slider js
 
     $('.hero-slider-one, .hero-slider-two').on('init', function(e, slick) {
         var $firstAnimatingElements = $('div.single-slider:first-child').find('[data-animation]');
-        doAnimations($firstAnimatingElements);    
+        doAnimations($firstAnimatingElements);
     });
     $('.hero-slider-one, .hero-slider-two').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
         var $animatingElements = $('div.single-slider[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-        doAnimations($animatingElements);    
+        doAnimations($animatingElements);
     });
     function doAnimations(elements) {
         var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
@@ -188,7 +188,7 @@
             var $this = $(this);
             var $animationDelay = $this.data('delay');
             var $animationType = 'animated ' + $this.data('animation');
-            $this.css({ 
+            $this.css({
                 'animation-delay': $animationDelay,
                 '-webkit-animation-delay': $animationDelay
             });
@@ -530,14 +530,14 @@
             ]
         });
     }
-    
+
     //===== Wow js
-    
+
     new WOW().init();
 
 
     //======= Price Quantity
-    
+
     $('.quantity-down').on('click', function(){
         var numProduct = Number($(this).next().val());
         if(numProduct > 1) $(this).next().val(numProduct - 1);
@@ -548,7 +548,7 @@
     });
 
     //======= Price ranger
-    
+
     if ($('#slider-range').length) {
         $( "#slider-range" ).slider({
             range: true,

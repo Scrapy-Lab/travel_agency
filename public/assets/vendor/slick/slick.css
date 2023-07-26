@@ -21,7 +21,7 @@
 .slick-list
 {
     position: relative;
-
+    /* background-color: white; */
     display: block;
     overflow: hidden;
 

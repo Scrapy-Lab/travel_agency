@@ -178,12 +178,12 @@
                                                                         align="center">
 
                                                                         {{-- <img align="center" border="0"
-                                                                            src="https://uxdesigns.in/project/hotels/public/img/logo/mainLogo_1.png"
+                                                                            src="https://snehal.info/project/hotels/public/img/logo/mainLogo_1.png"
                                                                             alt="Logo" title="Logo"
                                                                             style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 150px;"
                                                                             width="200px" /> --}}
 
-                                                                            <h1 class="logoName" style="margin-top: -20px;">Hotels in <span style="color:#fff">Bo</span>dhgaya</h1>    
+                                                                            <h1 class="logoName" style="margin-top: -20px;">Hotels in <span style="color:#fff">Bo</span>dhgaya</h1>
 
                                                                     </td>
                                                                 </tr>
@@ -194,7 +194,7 @@
                                                 </tbody>
                                             </table>
 
-                                            
+
 
                                             <!--[if (!mso)&(!IE)]><!-->
                                         </div><!--<![endif]-->
@@ -208,7 +208,7 @@
 
 
 
-            
+
                     <div class="u-row-container" style="padding: 0px;background-color: transparent">
                         <div class="u-row"
                             style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
@@ -799,7 +799,7 @@
                                             style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;">
                                             <!--<![endif]-->
 
-                                            
+
 
                                             <!--[if (!mso)&(!IE)]><!-->
                                         </div><!--<![endif]-->
@@ -827,7 +827,7 @@
 
 
                     </div>
-                    
+
 
 
 
@@ -863,14 +863,14 @@
                                                                 <tr>
                                                                     <td style="padding-right: 0px;padding-left: 0px;"
                                                                         align="left">
-{{-- 
+{{--
                                                                         <img align="center" border="0"
-                                                                            src="https://uxdesigns.in/project/hotels/public/img/logo/mainLogo_1.png"
+                                                                            src="https://snehal.info/project/hotels/public/img/logo/mainLogo_1.png"
                                                                             alt="Logo" title="Logo"
                                                                             style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 150px;"
                                                                             width="200px" /> --}}
 
-                                                                          
+
 
                                                                     </td>
                                                                 </tr>
@@ -890,8 +890,8 @@
 
                                                             <div
                                                                 style="line-height: 150%; text-align: left; word-wrap: break-word;">
-                                                            
-                                                                <h1 class="logoName" style="margin-top: -50px; font-size: 14px; line-height: 150%;">Hotels in <span style="color:#fff">Bo</span>dhgaya</h1>    
+
+                                                                <h1 class="logoName" style="margin-top: -50px; font-size: 14px; line-height: 150%;">Hotels in <span style="color:#fff">Bo</span>dhgaya</h1>
                                                             </div>
 
 

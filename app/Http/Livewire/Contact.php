@@ -49,6 +49,11 @@ class Contact extends Component
 
         session()->flash('message', 'Query has been sucessfull sent, Admin will contact you soon');
 
+        $this->name = "";
+        $this->email = "";
+        $this->subject = "";
+        $this->msg = "";
+
 
     }
 }

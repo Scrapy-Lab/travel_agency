@@ -59,10 +59,11 @@
 
                             <ul>
 
-                                <li class="{{ (\Request::route()->getName() == 'home') ? 'active' : ''}}"><a href="{{route('home')}}">Home</a></li>
-                                <li  class="{{(\Request::route()->getName() == 'tour') ? 'active' : ''}}"><a href="{{route('tour')}}">Tour</a></li>
-                                <li  class="{{(\Request::route()->getName() == 'taxi') ? 'active' : ''}}"><a href="{{route('taxi')}}">Taxi</a></li>
-                                <li  class="{{(\Request::route()->getName() == 'about') ? 'active' : ''}}"><a href="{{route('about')}}">About</a></li>
+                                <li class="{{ (\Request::route()->getName() == 'home') ? 'active' : ''}}"><a class="text-black" href="{{route('home')}}">Home</a></li>
+                                <li  class="{{(\Request::route()->getName() == 'tour') ? 'active' : ''}}"><a class="text-black" href="{{route('tour')}}">Tour</a></li>
+                                <li  class="{{(\Request::route()->getName() == 'taxi') ? 'active' : ''}}"><a class="text-black" href="{{route('taxi')}}">Taxi</a></li>
+                                <li  class="{{(\Request::route()->getName() == 'about') ? 'active' : ''}}"><a class="text-black" href="{{route('about')}}">About</a></li>
+                                <li  class="{{(\Request::route()->getName() == 'contact') ? 'active' : ''}}"><a class="text-black" href="{{route('contact')}}">Contact Us</a></li>
 
                             </ul>
 

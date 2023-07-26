@@ -1,6 +1,6 @@
     <!--====== Start Footer ======-->
 
-    <footer class="main-footer black-bg pt-230">
+    <footer class="main-footer white-bg pt-230">
 
         <div class="container">
 

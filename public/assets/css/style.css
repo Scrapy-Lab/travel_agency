@@ -25,7 +25,7 @@
 }
 
 .hero-slider-two .slick-arrow:hover, .hero-slider-one .slick-arrow:hover, .blog-post .entry-content .block-quote span:before, .single-blog-post-four .entry-content .main-btn.filled-btn:hover, .single-blog-post-four .entry-content .main-btn.filled-btn i, .cat-btn, .description-wrapper .content-box ul.check-style-one li i, .product-details-wrapper .product-info ul.social-link li a:hover, .single-product-item .img-holder .tag span.feat, .single-place-item-two .place-img .tour-count, .single-gallery-item .gallery-img .icon-btn, .activity-nav-tab .nav-tabs li a.active, .single-service-item-four:hover .content .icon-btn, .single-service-item:hover .content .icon-btn, .ribbon, .single-progress-bar .progress .progress-bar, .single-cta-item:nth-child(2) .content .icon-btn, .back-to-top:hover, .back-to-top:focus, .main-btn.secondary-btn, .main-btn.primary-btn:hover {
-  background-color: #F7921E;
+    background-color: #000000;
 }
 
 .single-activity-item .content .main-btn i, .header-two .header-navigation.sticky, .header-one .header-navigation.sticky, .black-bg {
@@ -128,7 +128,7 @@ a {
   display: inline-block;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -136,7 +136,7 @@ h5,
 h6 {
   margin: 0px;
   font-family: "Prompt", sans-serif;
-}
+} */
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   h2 {
@@ -164,9 +164,9 @@ p {
   margin: 0px;
 }
 
-input, textarea {
+/* input, textarea {
   display: inherit;
-}
+} */
 
 label {
   margin-bottom: 0;
@@ -339,7 +339,7 @@ ul.social-link li {
   outline: 0;
 }
 
-.form_group {
+/* .form_group {
   position: relative;
 }
 
@@ -351,7 +351,7 @@ ul.social-link li {
 textarea.form_control {
   padding-top: 15px;
   display: inherit;
-}
+} */
 
 .p-r {
   position: relative;
@@ -5479,7 +5479,7 @@ li.active {
     background-color: #01978b;
     line-height: 0rem;
     border-radius: 10px;
-    width: 100px;
+    width: 109px;
     text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

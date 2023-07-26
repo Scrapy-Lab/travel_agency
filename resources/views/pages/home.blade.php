@@ -20,7 +20,9 @@
 
     <!--====== Favicon Icon ======-->
 
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
+    {{-- <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png"> --}}
+    <link rel="icon" type="image/png" sizes="6x6" href="{{ asset('img/logo/logo.jpg') }}">
+
 
     <!--====== Google Fonts ======-->
 
@@ -67,6 +69,16 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
+
+    <style>
+
+.slick-list
+{
+
+    background-color: white;
+
+}
+    </style>
 </head>
 
 <body>
@@ -172,10 +184,11 @@
 
                             <ul>
 
-                                <li class="{{ (\Request::route()->getName() == 'home') ? 'active' : ''}}"><a href="{{route('home')}}">Home</a></li>
-                                <li  class="{{(\Request::route()->getName() == 'tour') ? 'active' : ''}}"><a href="{{route('tour')}}">Tour</a></li>
-                                <li  class="{{(\Request::route()->getName() == 'taxi') ? 'active' : ''}}"><a href="{{route('taxi')}}">Taxi</a></li>
-                                <li  class="{{(\Request::route()->getName() == 'about') ? 'active' : ''}}"><a href="{{route('about')}}">About</a></li>
+                                <li class="{{ (\Request::route()->getName() == 'home') ? 'active' : ''}}"><a class="text-black menu_nav"  href="{{route('home')}}">Home</a></li>
+                                <li  class="{{(\Request::route()->getName() == 'tour') ? 'active' : ''}}"><a class="text-black menu_nav" href="{{route('tour')}}">Tour</a></li>
+                                <li  class="{{(\Request::route()->getName() == 'taxi') ? 'active' : ''}}"><a class="text-black menu_nav" href="{{route('taxi')}}">Taxi</a></li>
+                                <li  class="{{(\Request::route()->getName() == 'about') ? 'active' : ''}}"><a class="text-black menu_nav" href="{{route('about')}}">About</a></li>
+                                <li  class="{{(\Request::route()->getName() == 'contact') ? 'active' : ''}}"><a class="text-black menu_nav" href="{{route('contact')}}">Contact </a></li>
 
                             </ul>
 
@@ -247,7 +260,7 @@
 
                                 <!--=== Hero Content ===-->
 
-                                <div class="hero-content text-white">
+                                <div class="hero-content text-black">
 
                                     <h1 data-animation="fadeInDown" data-delay=".4s">Travel &
 
@@ -306,7 +319,7 @@
 
                                 <!--=== Hero Content ===-->
 
-                                <div class="hero-content text-white">
+                                <div class="hero-content text-black">
 
                                     <h1 data-animation="fadeInDown" data-delay=".4s">Travel &
 
@@ -362,7 +375,7 @@
 
                                 <!--=== Hero Content ===-->
 
-                                <div class="hero-content text-white">
+                                <div class="hero-content text-black">
 
                                     <h1 data-animation="fadeInDown" data-delay=".4s">Travel &
 
@@ -707,7 +720,7 @@
 
     <section class="activity-section">
 
-        <div class="activity-wrapper-bgc  text-white black-bg">
+        <div class="activity-wrapper-bgc  text-black white-bg">
 
             <div class="container">
 
@@ -1643,7 +1656,7 @@
 
     <!--====== Start Footer ======-->
 
-    <footer class="main-footer black-bg pt-230">
+    <footer class="main-footer white-bg pt-230">
 
         <div class="container">
 
