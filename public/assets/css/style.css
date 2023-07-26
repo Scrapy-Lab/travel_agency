@@ -982,7 +982,7 @@ button {
 .header-navigation .navbar-toggler {
   padding: 10px 7px;
   background-color: #050000;
-  background-color: transparent;
+  /* background-color: transparent; */
   cursor: pointer;
   display: none;
   border-radius: 5px;
