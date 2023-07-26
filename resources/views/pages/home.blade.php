@@ -198,7 +198,7 @@
 
                         <div class="menu-button mt-40 d-xl-none">
 
-                            <a href="contact.html" class="main-btn secondary-btn">Book Now<i
+                            <a href="{{route('contact')}}" class="main-btn secondary-btn">Book Now<i
                                     class="fas fa-paper-plane"></i></a>
 
                         </div>
@@ -211,7 +211,7 @@
 
                         <div class="menu-button d-xl-block d-none">
 
-                            <a href="contact.html" class="main-btn primary-btn">Book Now<i
+                            <a href="{{route('contact')}}" class="main-btn primary-btn">Book Now<i
                                     class="fas fa-paper-plane"></i></a>
 
                         </div>
