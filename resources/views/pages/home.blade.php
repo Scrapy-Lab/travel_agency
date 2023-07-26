@@ -141,7 +141,7 @@
 
                     <div class="site-branding">
 
-                        <a href="index.html" class="brand-logo"><img class="brandLogo" src="{{asset('img/logo/logo.jpg')}}"
+                        <a href="{{route('contact')}}" class="brand-logo"><img class="brandLogo" src="{{asset('img/logo/logo.jpg')}}"
                                 alt="Site Logo"></a>
 
                     </div>
@@ -154,7 +154,7 @@
 
                         <div class="mobile-logo mb-30 d-block d-xl-none">
 
-                            <a href="index.html" class="brand-logo"><img src="{{asset('img/logo/logo.jpg')}}"
+                            <a href="{{route('contact')}}" class="brand-logo"><img src="{{asset('img/logo/logo.jpg')}}"
                                     alt="Site Logo"></a>
 
                         </div>
